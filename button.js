@@ -13,6 +13,12 @@ function onMM(){
 function onTM(){
     gameInstance.SendMessage('GameDirector','TM');
 }
+function onTB(){
+    gameInstance.SendMessage('GameDirector','TB');
+}
+function onRemove(){
+    gameInstance.SendMessage('GameDirector','Remove');
+}
 
 function onSave(){
     gameInstance.SendMessage('GameDirector','SaveJson');
