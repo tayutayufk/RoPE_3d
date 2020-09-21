@@ -26,3 +26,6 @@ function onSave(){
 function onLoad(){
     gameInstance.SendMessage('GameDirector','LoadJson');
 }
+function GoMission(){
+    gameInstance.SendMessage('GameDirector','GoMission');
+}
